@@ -1,0 +1,37 @@
+.Bg-container {
+  background-color: #f5d0fe;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 40vw;
+  height: 40vh;
+  border-radius: 15px;
+  padding: 15px;
+}
+.input-text {
+  height: 30px;
+}
+.saveBtn {
+  background-color: #d946ef;
+  color: white;
+  width: 105px;
+  border-radius: 8px;
+  height: 30px;
+  margin-left: 10px;
+  border-color: none;
+  border-width: 0px;
+  cursor: pointer;
+}
+.input-btn {
+  display: flex;
+}
