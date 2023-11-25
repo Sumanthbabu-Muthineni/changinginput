@@ -8,8 +8,10 @@ class EditableTextInput extends Component {
     this.setState({inputText: event.target.value})
   }
 
-  onClickSave = () => {
-    this.setState(prevState => ({save: !prevState}))
+  onClickSave = event => {
+    event.preventDefault()
+
+    this.setState(prevState => ({save: !prevState.save}))
   }
 
   render() {
